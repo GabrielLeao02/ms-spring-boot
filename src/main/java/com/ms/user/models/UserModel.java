@@ -17,6 +17,7 @@ public class UserModel implements Serializable {
     private String email;
 
     public UUID getUserId() {
+        System.out.println("desenvolvimento em homolog");
         return userId;
     }
 
